@@ -65,15 +65,25 @@ Dialog to name the location before saving
 
 🧩 App Workflow
 
+
 graph 
+
 A[Launch App] --> B[Request Permissions]
+
 B --> C[Load Saved Locations]
+
 C --> D[User Enables Tracking]
+
 D --> E[Foreground Service Starts]
+
 E --> F[Location Updates Received]
+
 F --> G[Compare With Geofence Radius]
+
 G --> H{Within Radius?}
+
 H -- Yes --> I[Switch to DND]
+
 H -- No --> J[Normal Mode]
 
 🧠 How It Works
@@ -114,10 +124,6 @@ If within radius, it enables DND Mode via NotificationManager
 
 4. Google Geocoding API
 
-When saving a location, the app calls:
-
-https://maps.googleapis.com/maps/api/geocode/json?latlng={lat},{lng}&key=MY_API_KEY
-
 Used to convert lat/lon into a readable place name shown in the UI.
 
 5. Data Handling
@@ -145,13 +151,13 @@ If any are denied, the app shows a dialog with rationale and directs to system s
 📱 App Screenshots
 
 🏠 Main Screen
-![MainScreen](screenshots/mainscreen.jpg)
+![MainScreen](screenshots/mainscreen.jpg width="500")
 
 📋 Location List Screen
-![LocationListScreen](screenshots/locationlistscreen.jpg)
+![LocationListScreen](screenshots/locationlistscreen.jpg width="500")
 
 🗺️ Location Selection Screen
-![LocationSelectionScreen](screenshots/locationselectionscreen.jpg)
+![LocationSelectionScreen](screenshots/locationselectionscreen.jpg width="500")
 
 
 🧪 Future Improvements
