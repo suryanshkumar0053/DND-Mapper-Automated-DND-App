@@ -151,13 +151,13 @@ If any are denied, the app shows a dialog with rationale and directs to system s
 📱 App Screenshots
 
 🏠 Main Screen
-<img src="screenshots/mainscreen.jpg" width="250" />
+<img src="screenshots/mainscreen.jpg" width="200" />
 
 📋 Location List Screen
-<img src="screenshots/locationlistscreen.jpg" width="250" />
+<img src="screenshots/locationlistscreen.jpg" width="200" />
 
 🗺️ Location Selection Screen
-<img src="screenshots/locationselectionscreen.jpg" width="250" />
+<img src="screenshots/locationselectionscreen.jpg" width="200" />
 
 
 
