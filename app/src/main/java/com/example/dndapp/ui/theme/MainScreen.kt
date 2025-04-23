@@ -1,4 +1,4 @@
-package com.example.dndmapper.ui.theme
+package com.example.dndapp.ui.theme
 
 import android.Manifest
 import android.app.Activity
@@ -61,9 +61,9 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.navigation.NavController
-import com.example.dndmapper.DndUtils
-import com.example.dndmapper.LocationPermissionHelper
-import com.example.dndmapper.Screen
+import com.example.dndapp.DndUtils
+import com.example.dndapp.LocationPermissionHelper
+import com.example.dndapp.Screen
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
