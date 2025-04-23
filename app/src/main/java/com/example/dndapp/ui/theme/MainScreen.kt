@@ -1,4 +1,4 @@
-package com.example.dndapp.ui.theme
+package com.example.dndmapper.ui.theme
 
 import android.Manifest
 import android.app.Activity
@@ -61,9 +61,9 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.navigation.NavController
-import com.example.dndapp.DndUtils
-import com.example.dndapp.LocationPermissionHelper
-import com.example.dndapp.Screen
+import com.example.dndmapper.DndUtils
+import com.example.dndmapper.LocationPermissionHelper
+import com.example.dndmapper.Screen
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -374,6 +374,16 @@ fun MainScreen(
             )
 
            // GradientButton(onClick = {}, text = "Schedule") // Schedule button
+            GradientButton(
+                onClick = {
+                    // Handle the click event here
+                    Log.d("GradientButton", "Schedule button clicked")
+                    // You can navigate to a schedule screen or trigger a scheduler action
+                },
+                text = "Schedule"
+            )
+
+
             GradientButtonWithSettingsIcon(
                 onClick = { navController.navigate("location_list_screen") },
                 text = "Predefined Locations"

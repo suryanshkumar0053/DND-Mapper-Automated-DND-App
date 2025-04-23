@@ -1,4 +1,4 @@
-package com.example.dndapp.ui.theme
+package com.example.dndmapper.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

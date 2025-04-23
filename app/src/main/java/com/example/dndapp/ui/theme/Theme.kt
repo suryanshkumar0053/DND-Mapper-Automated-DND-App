@@ -1,4 +1,4 @@
-package com.example.dndapp.ui.theme
+package com.example.dndmapper.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

@@ -1,4 +1,4 @@
-package com.example.dndapp
+package com.example.dndmapper
 
 import org.junit.Test
 
